@@ -44,7 +44,7 @@ public class Comparacao {
             vetor.get(i);
         }
         tempoFinal = System.currentTimeMillis();
-        System.out.println("Adicionou " + limite + " tempo de leitura do vetor");
+        System.out.println(" tempo de leitura do vetor");
         System.out.println(tempoFinal - tempoInicial);
 
         tempoInicial = System.currentTimeMillis();
@@ -54,7 +54,7 @@ public class Comparacao {
             iterator.getProximo();
         }
         tempoFinal = System.currentTimeMillis();
-        System.out.println("Adicionou " + limite + " tempo de leitura da lista");
+        System.out.println("tempo de leitura do Iterator");
         System.out.println(tempoFinal - tempoInicial);
 
     }
