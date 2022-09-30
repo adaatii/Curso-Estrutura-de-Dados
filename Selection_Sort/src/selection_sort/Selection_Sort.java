@@ -26,9 +26,9 @@ public class Selection_Sort {
         
         //selection sort
         int posicao_menor, aux;
-        for (int i = 0; i < vetor.length; i++) {
+        for (int i = 0; i < vetor.length; i++) {//O(N)
             posicao_menor=i;
-            for (int j = i+1; j < vetor.length; j++) {
+            for (int j = i+1; j < vetor.length; j++) {//O(N)
                 if (vetor[j] < vetor[posicao_menor]) {
                     posicao_menor = j;                    
                 }
