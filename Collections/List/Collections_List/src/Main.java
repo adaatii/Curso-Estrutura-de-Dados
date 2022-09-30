@@ -29,7 +29,7 @@ public class Main {
         System.out.println("Confira se a nota 5 está na lista: " + notas.contains(5d));
         System.out.println("Exiba todas as notas na ordem em que foram informados: ");
         for (Double nota : notas) System.out.println(nota);
-        
+
 
 
 
