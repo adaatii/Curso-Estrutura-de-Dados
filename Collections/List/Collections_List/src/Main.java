@@ -58,7 +58,7 @@ public class Main {
         System.out.println(notas);
 
         System.out.println("Confira se a lista está vazia? " + notas.isEmpty());
-        
+
 
 
 
