@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1272715f-7715-433b-8e37-d1bc4035ed7c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,9 +32,22 @@
     "last_opened_file_path": "/home/adaatii/Documentos/Github/Curso_Estrutura_de_Dados/Lista_Ligada_Encadeada"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="ProgramaNovo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lista_ligada_encadeada.ProgramaNovo" />
+  <component name="RunManager" selected="Application.ProgramaPilha">
+    <configuration name="ProgramaFila" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lista_ligada_encadeada.ProgramaFila" />
+      <module name="Lista_Ligada_Encadeada" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lista_ligada_encadeada.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProgramaPilha" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lista_ligada_encadeada.ProgramaPilha" />
       <module name="Lista_Ligada_Encadeada" />
       <extension name="coverage">
         <pattern>
@@ -45,7 +61,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProgramaNovo" />
+        <item itemvalue="Application.ProgramaPilha" />
+        <item itemvalue="Application.ProgramaFila" />
       </list>
     </recent_temporary>
   </component>

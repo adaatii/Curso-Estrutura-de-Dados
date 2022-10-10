@@ -54,6 +54,18 @@ public class ListaLigada {
         this.tamanho++;
     }
 
+    public void adicionarComeco(String novoValor){
+        Elemento novoElemento = new Elemento(novoValor);
+        if (this.primeiro == null && this.ultimo == null) {
+            this.primeiro = novoElemento;
+            this.ultimo = novoElemento;
+        } else {
+            novoElemento.setProximo(this.primeiro);
+            this.primeiro = novoElemento;
+        }
+        this.tamanho++;
+    }
+
     public void remover(String valorProcurado) {
         Elemento anterior = null;
         Elemento atual = this.primeiro;
