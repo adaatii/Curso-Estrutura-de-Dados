@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Lista_Ligada_Encadeada">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/Lista_Ligada_Encadeada.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
